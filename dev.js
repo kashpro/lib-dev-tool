@@ -19,7 +19,7 @@ export default addWindowStatsElement = () => {
   const userAgent = navigator.userAgent.toLowerCase();
   if (/opera/.test(userAgent) || /opr/.test(userAgent)) {
     browserName = 'Opera';
-  } else if (/edge/.test(userAgent)) {
+  } else if (/edg/.test(userAgent)) {
     browserName ='Edge';
   } else if (/firefox/.test(userAgent)) {
     browserName ='Firefox';
@@ -49,6 +49,7 @@ export default addWindowStatsElement = () => {
   };
 }
 
+//version 6
 
 //13.12.2020
 //"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0" //firefox
